@@ -10,7 +10,7 @@ import { configureCloudinary } from './config/cloudinary.js';
 
 export function createApp(config) {
     const app = express();
-    app.use(cors({ origin: config.frontendOrigin }));
+    app.use(cors({ origin: config.frontendOrigin, credentials: true }));
     app.use(express.json());
     app.get('/api/health', (_request, response) => response.json({ status: 'ok', service: 'admin-api' }));
     app.use('/api/auth', createAuthRouter(config, requireAdmin(config.jwtSecret)));
