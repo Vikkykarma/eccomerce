@@ -8,7 +8,7 @@ if (missing.length) {
 }
 
 export const config = {
-    port: Number(process.env.PORT),
+    port: Number(process.env.PORT) || 4000,
     jwtSecret: process.env.JWT_SECRET,
     adminEmail: process.env.ADMIN_EMAIL,
     adminPassword: process.env.ADMIN_PASSWORD,
