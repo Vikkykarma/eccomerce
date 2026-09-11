@@ -17,7 +17,7 @@ const config = {
     adminPassword: 'StrongPass123',
     adminRole: 'admin',
     mongoUri: 'mongodb://127.0.0.1:27017/ecommerce-test',
-    frontendOrigin: 'http://localhost:3000',
+    frontendOrigin: 'https://eccomerce-pi-five.vercel.app/',
     razorpayKeyId: 'test-key',
     razorpayKeySecret: 'test-secret',
     cloudinaryCloudName: 'test-cloud',
