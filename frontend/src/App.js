@@ -24,7 +24,7 @@ const orders = [
   { id: '#1045', customer: 'Liam Brown', date: 'Yesterday, 1:08 PM', amount: '$54.00', status: 'Shipped' },
 ];
 
-const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+const apiUrl = process.env.REACT_APP_API_URL || 'https://eccomerce-mtbw.onrender.com';
 
 export function App() {
   const [activeItem, setActiveItem] = useState('Overview');
