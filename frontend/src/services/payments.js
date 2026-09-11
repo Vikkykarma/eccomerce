@@ -1,4 +1,4 @@
-const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+const apiUrl = process.env.REACT_APP_API_URL || 'https://eccomerce-mtbw.onrender.com';
 
 async function paymentRequest(path, token, body) {
     const response = await fetch(`${apiUrl}/api/payments/${path}`, { method: 'POST', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });

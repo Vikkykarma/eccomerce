@@ -1,4 +1,4 @@
-const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+const apiUrl = process.env.REACT_APP_API_URL || 'https://eccomerce-mtbw.onrender.com';
 
 export async function authenticate({ mode, name, email, password }) {
     const body = mode === 'register' ? { name, email, password } : { email, password };

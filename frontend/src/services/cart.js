@@ -1,4 +1,4 @@
-const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+const apiUrl = process.env.REACT_APP_API_URL || 'https://eccomerce-mtbw.onrender.com';
 
 async function cartRequest(token, path, options = {}) {
     const response = await fetch(`${apiUrl}${path}`, {
