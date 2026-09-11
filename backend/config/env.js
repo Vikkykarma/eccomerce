@@ -14,7 +14,7 @@ export const config = {
     adminPassword: process.env.ADMIN_PASSWORD,
     adminRole: process.env.ADMIN_ROLE,
     mongoUri: process.env.MONGODB_URI,
-    frontendOrigin: process.env.FRONTEND_ORIGIN || 'https://eccomerce-pi-five.vercel.app/',
+    frontendOrigin: process.env.FRONTEND_ORIGIN || 'https://eccomerce-pi-five.vercel.app',
     razorpayKeyId: process.env.RAZORPAY_KEY_ID,
     razorpayKeySecret: process.env.RAZORPAY_KEY_SECRET,
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,
