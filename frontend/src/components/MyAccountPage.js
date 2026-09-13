@@ -62,7 +62,7 @@ export default function MyAccountPage({ token, onSignOut }) {
             <header className='account-header px-4 sm:px-6'>
                 <div className='login-brand'>
                     <span className='brand-mark'>n</span>
-                    <strong>northand</strong>
+                    <strong>Ecommerce</strong>
                 </div>
                 <nav className='account-nav'>
                     <Link to='/shop'>Shop</Link>
